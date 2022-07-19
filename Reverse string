@@ -1,0 +1,9 @@
+def revstring(self,s) :
+   def my rev(left, right,l) :
+      if left>=right:
+        return
+      s[left], s[right]=s[right], s[left]
+      my rev(left+1, right-1, s) 
+   my rev(left=0, right=len(s) -1, l=s) 
+s=list(map(str, input(). split())) 
+revstring (s) 
